@@ -30,3 +30,36 @@ main {
 main:has(.back-link) {
   text-align: center;
 }
+.main-page-ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 50px auto;
+  width: 200px;
+}
+
+.main-page-ul li {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.main-page-ul a {
+  display: block;
+  padding: 10px 20px;
+  background-color: #acff4e;
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 8px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.main-page-ul a:hover {
+  background-color: #6cffff;
+  transform: scale(1.06);
+}
+
+.main-page-ul a:active {
+  background-color: #9e3acc;
+  transform: scale(0.93);
+}
